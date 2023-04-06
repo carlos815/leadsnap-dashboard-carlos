@@ -22,7 +22,6 @@ export default defineNuxtConfig({
                         "green-1": "#8fc03a",
                         "green-2": "#31b799",
                         "green-3": "#249d85",
-
                         "turquoise": "#28c4c4",
                         "turquoise-2": "#50b7b7",
                         "turquoise-3": "#429998",

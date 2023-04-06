@@ -1,5 +1,5 @@
 <template>
-  <div class="flex justify-between mb-4 flex-wrap gap-4">
+  <div class="flex justify-between mb-8 flex-wrap gap-4">
     <div class="flex gap-4">
       <button
         class="to-green-1 from-blue-7 bg-gradient-to-l before:bg-white before:w-full before:h-full before:z-10 relative rounded p-[2px] hover:scale-105 transition-transform"
@@ -19,22 +19,24 @@
       <Custom-select
         :options="['Live', 'Error', 'Missing', 'Power']"
         :default="'Live'"
-        class="select w-32 border border-gray-4"
+        class="select w-32 border border-gray-4 rounded"
       />
     </div>
-    <div>
+    <div class="flex flex-wrap gap-y-4">
       <button
-        class="bg-turquoise-2 border border-turquoise-3 h-full px-4 font-bold text-white rounded mr-6"
+        class="bg-turquoise-2 border border-turquoise-3 h-full px-4 font-bold text-white rounded mr-6 max-h-11"
       >
         Sync Citations
       </button>
-      <label for="t" class="font-bold mr-2">Search:</label>
-      <input
-        type="text"
-        name=""
-        id=""
-        class="border border-gray-4 bg-white rounded shadow-sm w-64 bg-transparent relative p-2 h-full"
-      />
+      <div class="flex items-center h-full max-h-11">
+        <label for="t" class="font-bold mr-2">Search:</label>
+        <input
+          type="text"
+          name=""
+          id=""
+          class="border border-gray-4 bg-white rounded shadow-sm w-64 bg-transparent relative p-2 h-full"
+        />
+      </div>
     </div>
   </div>
 </template>

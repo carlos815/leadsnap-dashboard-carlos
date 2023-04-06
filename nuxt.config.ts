@@ -18,8 +18,14 @@ export default defineNuxtConfig({
                         "blue-4": "#3e4f61",
                         "blue-5": "#52606e",
                         "blue-6": "#5b738b",
-                        "blue-7": "#24a1cb",
+                        "blue-7": "#21a0d1",
+                        "green-1": "#8fc03a",
+                        "green-2": "#31b799",
+                        "green-3": "#249d85",
+
                         "turquoise": "#28c4c4",
+                        "turquoise-2": "#50b7b7",
+                        "turquoise-3": "#429998",
                     },
                 }
             }

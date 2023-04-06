@@ -3,16 +3,16 @@
     <Summary-block-progress
       :icon="'citations.png'"
       :title="'Power Citations'"
-      :value="60"
+      :value="55"
       :total="70"
     />
     <Summary-block
-      :icon="'power-citations.png'"
+      :icon="'citations.png'"
       :title="'Total Citations'"
       :value="'55'"
     />
     <Summary-block
-      :icon="'citations.png'"
+      :icon="'power-citations.png'"
       :title="'Power Citations'"
       :value="'34'"
     />

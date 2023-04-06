@@ -11,7 +11,7 @@
       class="rounded-full h-full w-full max-w-[100px] max-h-[100px] aspect-square before:absolute before:w-20 before:h-20 before:bg-white before:top-1/2 relative before:right-1/2 before:translate-x-1/2 before:-translate-y-1/2 before:rounded-full flex justify-center items-center font-bold text-2xl"
       v-bind:style="{
         background:
-          'conic-gradient(#88be59 0%,  #24a0d3 ' +
+          'conic-gradient(#8fc03a 0%,  #24a0d3 ' +
           percentage +
           '%, #d9d9d9 ' +
           percentage +

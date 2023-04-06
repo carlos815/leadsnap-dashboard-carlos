@@ -8,6 +8,7 @@
       <div class="px-8">
         <Page-header> </Page-header>
         <Summary-blocks></Summary-blocks>
+        
         <Table></Table>
       </div>
     </div>

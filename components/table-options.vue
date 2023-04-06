@@ -5,7 +5,7 @@
         class="to-green-1 from-blue-7 bg-gradient-to-l before:bg-white before:w-full before:h-full before:z-10 relative rounded p-[2px] hover:scale-105 transition-transform"
       >
         <span
-          class="bg-white py-2 px-4 flex gap-2 items-center font-bold relative right-0 rounded-sm"
+          class="bg-white py-2 px-4 flex gap-2 items-center font-bold relative right-0 rounded-sm h-full"
         >
           <img
             v-bind:src="baseURL + 'assets/gmb-name.png'"
@@ -15,16 +15,12 @@
           <span> Columns </span>
         </span>
       </button>
-      <div class="dropdown relative bg-white h-full rounded">
-        <select
-          class="border border-gray-4 bg-white rounded shadow-sm w-32 bg-transparent z-30 relative p-2 h-full"
-        >
-          <option value="" class="bg-white">Live</option>
-          <option value="" class="bg-white">Error</option>
-          <option value="" class="bg-white">Missing</option>
-          <option value="" class="bg-white">Power</option>
-        </select>
-      </div>
+
+      <Custom-select
+        :options="['Live', 'Error', 'Missing', 'Power']"
+        :default="'Live'"
+        class="select w-32 border border-gray-4"
+      />
     </div>
     <div>
       <button
@@ -37,7 +33,7 @@
         type="text"
         name=""
         id=""
-        class="border border-gray-4 bg-white rounded shadow-sm w-64 bg-transparent z-30 relative p-2 h-full"
+        class="border border-gray-4 bg-white rounded shadow-sm w-64 bg-transparent relative p-2 h-full"
       />
     </div>
   </div>
@@ -49,13 +45,5 @@ import { baseURL } from "@/composables/variables";
 
 <style scoped>
 select {
-  -webkit-appearance: none;
-  background-position-x: 100px;
-  @apply bg-transparent z-30 relative p-2;
-}
-
-.dropdown::before {
-  content: "⏷";
-  @apply absolute right-[5px] text-blue-2 z-10 py-2;
 }
 </style>

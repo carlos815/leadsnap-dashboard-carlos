@@ -11,7 +11,7 @@ export default defineNuxtConfig({
                         "gray-4": "#eaeaea",
                         "gray-5": "#e5e8ec",
                         "gray-6": "#d8dde3",
-                        "gray-7": "#d9d9d9",
+                        "gray-7": "#e0e0e0",
                         "blue-1": "#2a3f54",
                         "blue-2": "#2e4154",
                         "blue-3": "#3c5166",

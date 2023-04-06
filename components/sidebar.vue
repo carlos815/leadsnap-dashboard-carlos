@@ -9,12 +9,16 @@
     />
 
     <div class="flex gap-4 w-full items-center mb-8">
-      <img
-        v-bind:src="baseURL + 'assets/' + data.profile.img"
-        alt="Logo"
-        srcset=""
-        class="rounded-full overflow-hidden border-2 border-red-300 aspect-square h-full w-1/3"
-      />
+      <div
+        class="rounded-full overflow-hidden aspect-square h-full w-1/3 from-green-1 to-blue-7 bg-gradient-to-br p-[2px]"
+      >
+        <img
+          v-bind:src="baseURL + 'assets/' + data.profile.img"
+          alt="Logo"
+          srcset=""
+          class="rounded-full"
+        />
+      </div>
       <div class="w-1/2">
         <p class="text-white text-xs">Welcome</p>
         <p class="text-turquoise text-sm font-bold">{{ data.profile.name }}</p>

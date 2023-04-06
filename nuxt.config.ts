@@ -1,4 +1,5 @@
 export default defineNuxtConfig({
+    target: 'static',
     modules: ['@nuxtjs/tailwindcss'],
     tailwindcss: {
         config: {
